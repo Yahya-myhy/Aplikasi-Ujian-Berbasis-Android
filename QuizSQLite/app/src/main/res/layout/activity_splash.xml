@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grand_bg"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/ImageSplash"
+            android:layout_marginTop="230dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sbmmmptn"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:layout_below="@+id/ImageSplash"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_centerHorizontal="true"
+            android:text="SBMPTN 2019"
+            android:textColor="#ffff"
+            android:textSize="30sp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
